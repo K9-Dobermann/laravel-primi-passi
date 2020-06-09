@@ -1,0 +1,46 @@
+#home {
+    .ciao {
+        color:red;
+    }
+
+    .header  {
+        display: flex;
+        width: 20vw;
+        height: 100vh;
+        background: black;
+        color: purple;
+        float: left;
+
+
+        p {
+            margin: auto;
+        }
+
+    }
+    .content {
+        display: flex;
+        width: 80vw;
+        height: 50vh;
+        background: grey;
+        color: purple;
+        float: left;
+        p {
+            margin: auto;
+        }
+    }
+
+        .footer {
+            display: flex;
+            width: 80vw;
+            height: 50vh;
+            background: orange;
+            color: purple;
+            float: left;
+            p {
+                margin: auto;
+            }
+
+    }
+
+
+}

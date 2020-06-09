@@ -1,0 +1,49 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#home .ciao {
+  color: red;
+}
+
+#home .header {
+  display: flex;
+  width: 20vw;
+  height: 100vh;
+  background: black;
+  color: purple;
+  float: left;
+}
+
+#home .header p {
+  margin: auto;
+}
+
+#home .content {
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  background: grey;
+  color: purple;
+  float: left;
+}
+
+#home .content p {
+  margin: auto;
+}
+
+#home .footer {
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  background: orange;
+  color: purple;
+  float: left;
+}
+
+#home .footer p {
+  margin: auto;
+}
+
