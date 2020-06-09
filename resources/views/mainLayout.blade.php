@@ -17,33 +17,35 @@
     </head>
     <body>
 
+
+
+
+
+
 <div id="home">
 
+                <nav id="barra"  class="navbar navbar-default navbar-fixed-top">
 
+            @yield("content")
 
-    <div class="container">
-        <div class="row">
-            <div class="header">
+            </nav>
 
-                <p>Header prima</p>
-
-
-
-            </div>
-
-        </div>
         <div class="row">
             <div class="content">
 
+                <p>
+                    hola amigos
+                </p>
 
-                @yield("content")
+
+
 
             </div>
 
         </div>
         <div class="row">
             <div class="footer">
-                <p>Footer della prima</p>
+                <p>Footer della prima pagina</p>
 
                 @yield("babuiu")
 

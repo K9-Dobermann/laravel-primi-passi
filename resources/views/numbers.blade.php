@@ -25,7 +25,10 @@
         <div class="row">
             <div class="header">
 
-                <p>Header della seconda pagina</p>
+                    <nav id="barra"  class="navbar navbar-default navbar-fixed-top">
+
+                <p >Header della seconda pagina</p>
+            </nav>
 
 
 

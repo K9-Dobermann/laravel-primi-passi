@@ -1,43 +1,50 @@
 #home {
+
+    #barra {
+    width: 100vw;
+    height:100px;
+    background-color: rgb(23,26,33);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 999;
+
+
+}
+
     .ciao {
-        color:red;
+        color:orange;
+        font-size: 35px;
+        cursor: pointer;
     }
 
-    .header  {
+
+    .content {
         display: flex;
-        width: 20vw;
-        height: 100vh;
+        width: 100vw;
+        height: 50vh;
         background: black;
         color: purple;
         float: left;
-
-
+        margin-top: 100px;
         p {
             margin: auto;
-        }
-
-    }
-    .content {
-        display: flex;
-        width: 80vw;
-        height: 50vh;
-        background: grey;
-        color: purple;
-        float: left;
-        p {
-            margin: auto;
+            font-size: 25px;
         }
     }
 
         .footer {
             display: flex;
-            width: 80vw;
+            width: 100vw;
             height: 50vh;
             background: orange;
             color: purple;
             float: left;
             p {
                 margin: auto;
+                font-size: 25px;
             }
 
     }

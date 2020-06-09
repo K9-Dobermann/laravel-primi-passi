@@ -4,7 +4,13 @@
 
 
     <p class="ciao">
-    dfoksfjseifjoifjoifjfp
+    Home
+    </p>
+    <p class="ciao">
+    About
+    </p>
+    <p class="ciao">
+    Contact
     </p>
 
 @endsection

@@ -4,39 +4,42 @@ body {
   margin: 0;
 }
 
-#home .ciao {
-  color: red;
-}
-
-#home .header {
+#home #barra {
+  width: 100vw;
+  height: 100px;
+  background-color: #171a21;
+  position: fixed;
   display: flex;
-  width: 20vw;
-  height: 100vh;
-  background: black;
-  color: purple;
-  float: left;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 999;
 }
 
-#home .header p {
-  margin: auto;
+#home .ciao {
+  color: orange;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 #home .content {
   display: flex;
-  width: 80vw;
+  width: 100vw;
   height: 50vh;
-  background: grey;
+  background: black;
   color: purple;
   float: left;
+  margin-top: 100px;
 }
 
 #home .content p {
   margin: auto;
+  font-size: 25px;
 }
 
 #home .footer {
   display: flex;
-  width: 80vw;
+  width: 100vw;
   height: 50vh;
   background: orange;
   color: purple;
@@ -45,5 +48,6 @@ body {
 
 #home .footer p {
   margin: auto;
+  font-size: 25px;
 }
 
